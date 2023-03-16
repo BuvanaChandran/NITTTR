@@ -1,0 +1,267 @@
+﻿body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-size: 14px; */
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+
+/* #myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-color: white;
+} */
+
+.bg {
+    background-image: url('../images/nitttr.jpg');
+ 
+    background-color: navy;
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    padding: 200px;
+    height: 500px;
+    /* background-size: cover; */
+    position: relative;
+}
+
+
+
+
+
+.w, .o, .u {
+    color: black;
+    background-clip: content-box;
+    display: ruby-text-container;
+    text-align: center;
+    /* font-size:50px; */
+}
+
+.o {
+    font-size: 20px;
+}
+
+.u {
+    text-align: center;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+
+/**about-section**/
+
+.about-heading {
+    color: black;
+    font-size: 250%;
+    font-weight: 500;
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+.about-para {
+    color: black;
+    padding-bottom: 50px;
+    width: 500px;
+}
+
+.about {
+    padding-top: 150px;
+}
+
+.about-box:first-child {
+    text-align: left;
+    padding: 0 5%;
+}
+
+.about-box:last-child {
+    text-align: right;
+}
+
+.about-section {
+    padding-bottom: 20px;
+    background: white;
+}
+
+.container {
+    display: flex;
+}
+
+.video-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+
+/**video**/
+
+.hello {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    flex: 1;
+}
+
+.video-container {
+    flex: -3;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 40%;
+    height: 70%;
+}
+
+.hmp {
+    width: 100%;
+    height: auto;
+}
+
+
+/**National cordinator**/
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .logo h3 {
+        padding-top: 10px;
+    }
+
+
+/**course-catalog**/
+
+.ccl {
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card {
+    width: calc(33.33% - 30px);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px; /* Adjust the margin as per your requirement */
+    box-sizing: border-box;
+    /* margin: 0 15px 15px; */
+}
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+        color: navy;
+    }
+
+/* 
+learn ignite and inspire */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    width: 30%;
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.con {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0F3325;
+}
+
+
+.bg-contact {
+    margin-top: 0%;
+    background-image: url('../images/nitttr.jpg');
+   
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stat-report {
+    padding: 80px;
+    padding-bottom: 50px;
+    background-color: #f4f4f4;
+}
+
+
+.nc {
+    padding-bottom: 50px;
+}
+
+.testimonials {
+    padding: 70px;
+    background-color: white;
+    /* margin-bottom: 0%; */
+}
+
+.hel {
+    color: gold;
+}
