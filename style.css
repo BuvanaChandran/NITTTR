@@ -18,7 +18,7 @@
 } */
 
 .bg {
-    background-image: url('../images/nitttr.jpg');
+    background-image: url('nitttr.jpg');
  
     background-color: navy;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ learn ignite and inspire */
 
 .bg-contact {
     margin-top: 0%;
-    background-image: url('../images/nitttr.jpg');
+    background-image: url('nitttr.jpg');
    
     background-size: 100% 200%;
     background-repeat: no-repeat;
