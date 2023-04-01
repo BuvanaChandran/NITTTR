@@ -1,9 +1,18 @@
-﻿body {
+body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     /* font-size: 14px; */
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+}
+
+
+
+    img
+
+{
+    max-width: 50%;
+    height: auto;
 }
 
 
@@ -17,19 +26,40 @@
   background-color: white;
 } */
 
-.bg {
-    background-image: url('nitttr.jpg');
+/*home section*/
+
+/*.bg {
+    background-image: url('../images/nitttr.jpg');
  
     background-color: navy;
     background-repeat: no-repeat;
     background-size: 100% 150%;
     padding: 200px;
-    height: 500px;
+    height: 500px;*/
     /* background-size: cover; */
+    /*position: relative;
+}*/
+
+.bg {
+    background-image: -webkit-linear-gradient(rgb(237 233 233 / 0%),rgb(0 0 0 / 0%)),url(../images/nitttr.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 
+.header-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
 
 
@@ -164,15 +194,15 @@
     flex-wrap: wrap;
 }
 
-.row {
+/*.row {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
+}*/
 
-.card {
+/*.card {
     width: calc(33.33% - 30px);
     background-color: #fff;
     border-radius: 8px;
@@ -181,19 +211,19 @@
 
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px; /* Adjust the margin as per your requirement */
-    box-sizing: border-box;
+    margin-right: 10px;*/ /* Adjust the margin as per your requirement */
+    /*box-sizing: border-box;*/
     /* margin: 0 15px 15px; */
-}
+/*}*/
 
-    .card img {
+    /*.card img {
         width: 100%;
         height: auto;
         border-radius: 8px;
         margin-bottom: 10px;
     }
-
-    .card h3 {
+*/
+    /*.card h3 {
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -202,18 +232,18 @@
     .card p {
         font-size: 16px;
         line-height: 1.5;
-    }
+    }*/
 
 
-    .card:hover {
+   /* .card:hover {
         transform: scale(1.05);
         box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
         color: navy;
-    }
+    }*/
 
 /* 
 learn ignite and inspire */
-.row {
+/*.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -233,12 +263,12 @@ learn ignite and inspire */
     font-size: 18px;
     font-weight: bold;
     color: #0F3325;
-}
+}*/
 
 
 .bg-contact {
     margin-top: 0%;
-    background-image: url('nitttr.jpg');
+    background-image: url('../images/nitttr.jpg');
    
     background-size: 100% 200%;
     background-repeat: no-repeat;
@@ -254,14 +284,151 @@ learn ignite and inspire */
 
 .nc {
     padding-bottom: 50px;
+    text-align:center;
 }
 
 .testimonials {
     padding: 70px;
-    background-color: white;
+    background-color: grey;
     /* margin-bottom: 0%; */
 }
 
 .hel {
     color: gold;
+}
+
+
+.secnc{
+    background-color:grey;
+}
+
+/***Responsive webdesign*/
+
+/* For screens smaller than 768px */
+/*@media (max-width: 767px) {*/
+    /* Adjust styles for the header */
+    /*.bg-inner {
+        padding: 40px 20px;
+    }*/
+
+    /* Adjust styles for the heading */
+    /*.w {
+        font-size: 40px;
+    }*/
+
+    /* Adjust styles for the paragraph */
+    /*.o {
+        font-size: 16px;
+    }*/
+
+
+    /**about section*/
+    /* Adjust styles for the heading */
+    /*.about-heading {
+        font-size: 30px;
+    }*/
+
+    /* Adjust styles for the paragraphs */
+    /*.about-para {
+        font-size: 14px;
+        line-height: 1.5;
+    }*/
+
+    /* Adjust styles for the button */
+    /*.btn-ghost {
+        font-size: 14px;
+        padding: 10px 20px;
+    }*/
+
+    /* Adjust styles for the image */
+    /*.video-container img {
+        max-width: 100%;
+        height: auto;
+    }
+}*/
+
+/* For screens larger than 768px */
+/*@media (min-width: 768px) {*/
+    /* Reset styles for the header */
+    /*.bg-inner {
+        padding: 100px;
+    }*/
+
+    /* Reset styles for the heading */
+    /*.w {
+        font-size: 60px;
+    }*/
+
+    /* Reset styles for the paragraph */
+    /*.o {
+        font-size: 20px;
+    }*/
+
+
+    /* Reset styles for the heading */
+    /*.about-heading {
+        font-size: 40px;
+    }*/
+
+    /* Reset styles for the paragraphs */
+    /*.about-para {
+        font-size: 16px;
+        line-height: 1.8;
+    }*/
+
+    /* Reset styles for the button */
+    /*.btn-ghost {
+        font-size: 16px;
+        padding: 12px 24px;
+    }*/
+
+    /* Reset styles for the image */
+    /*.video-container img {
+        max-width: 100%;
+        height: auto;
+    }
+}*/
+
+
+/*////////////**/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    
+    .o {
+        font-size: 9px;
+        padding:0px;
+    }
+
+
+
+    .u {
+        text-align: center;
+        padding-left: 3px;
+        font-size: 9px;
+    }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
